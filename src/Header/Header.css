@@ -1,15 +1,21 @@
 .header{
     background-color: #131921;
     height: 70px;
+    width: 100%;
     display: flex;
 }
 .img_logo{
     width: 100px;
     margin: 20px;
 }
-.search_bar{
+.center_nav{
+    flex-basis: 78%;
+    display: flex;
     margin: 15px 0;
-    width: 1400px;
+
+}
+.search_bar{
+    width: 90%;
     height: 35px;
     border: none;
     padding: 0;
@@ -18,14 +24,16 @@
     height: 35px;
     width: 50px;
     background-color: #cd9042;
-    display: inline-block;
+    flex-wrap: nowrap; /* Default value */
+
     padding: 0;
     border: none;
 }
 .right_nav{
-    margin: 15px auto;
     display: flex;
     justify-content: space-evenly;
+    margin: 15px auto;
+
 }
 .header_link{
     color: white;
@@ -34,6 +42,7 @@
 .header_option{
     display: flex;
     flex-direction: column;
+    margin:auto 5px;
 }
 .option_line1{
     font-size: 10px;
@@ -45,8 +54,8 @@
 .header_optionBasket{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 .header_basketCount{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 5px 10px;
 }
