@@ -10,13 +10,13 @@ function Header() {
           </Link>
         </div>
 
-        {/* Search boxas_ */}
+        {/* Search boxadsadass_ */}
         <div className="center_nav">
           <input type="text" className='search_bar'/>
           <button className="search_button fa-solid fa-magnifying-glass"></button>
         </div>
 
-        {/* 3 links_ */}
+        {/* 3 links__ */}
         {/* 1st link */}
         <div className="right_nav">
           <Link tp="/login" className="header_link">
